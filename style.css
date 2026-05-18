@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#ffd6e8, #fff4f8);
+  color: #5c2b3a;
+  text-align: center;
+}
+
+.game-wrapper {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  margin-top: 0;
+}
+
+canvas {
+  background: #bdeaff;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+button {
+  background: #ff5fa2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e84c8f;
+}
+
+.instructions {
+  font-size: 14px;
+}
+
+.mobile-controls {
+  margin-top: 10px;
+}
+
+.mobile-controls button {
+  min-width: 80px;
+}
+
+#loveMessage {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  line-height: 1.6;
+  display: none;
+}
